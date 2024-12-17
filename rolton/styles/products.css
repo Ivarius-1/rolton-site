@@ -1,0 +1,179 @@
+.products{
+    width: 1300px;
+    height: 595px;
+    margin-top: 300px;
+}   
+.products__content{
+    justify-content:left;
+    align-items: center;
+    display: flex;
+    margin-left: 120px;
+    flex-direction: column;
+}
+.products__content-text{
+    font-family: 'Bebas', sans-serif;
+    font-weight: 800;
+    font-size: 70px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.products__content-types{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+.products__types{
+    width:134px;
+    height:116px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    border: 1px solid #eef2ee;
+    border-radius: 20px;
+    position: relative;
+    
+}
+.products__types-text{
+    font-family: 'Stolz', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    position: relative;
+    bottom: 15px;   
+    z-index: 1;
+}
+.products__types:hover{
+    background-color: #ffda00;
+    border-color: #ffda00;
+}
+.products__types-arrow{
+    content: url('../assets/imgs/category_active_slide_arrow_desktop.svg');
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);    
+    display: none;
+    width: 80px;
+    height: 20px;
+}
+.products__types:hover .products__types-arrow {
+    display: block; 
+}
+.products__types-img{
+    width:20px ;
+    height:15px ;
+}
+.size
+{
+    margin: 10px;
+    background-size: 134px 75px;
+    background-repeat: no-repeat;
+}
+.im1{
+    background-image: url('../assets/imgs/t1.png');
+    background-color: #ffda00;
+    border-color: #ffda00;
+}
+.im2{
+    background-image: url('../assets/imgs/t2.png');
+}
+.im3{
+    background-image: url('../assets/imgs/t3.png');
+}
+.im4{
+    background-image: url('../assets/imgs/t4.png');
+}
+.im5{
+    background-image: url('../assets/imgs/t8.png');
+}
+.im6{
+    background-image: url('../assets/imgs/t5.png');
+}
+.im7{
+    background-image: url('../assets/imgs/t9-2.png');
+}
+.im8{
+    background-image: url('../assets/imgs/t6.png');
+}
+
+
+
+
+
+
+
+.products__content-scroll{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    position: relative;
+    overflow-x:auto;  
+    overflow-y: hidden;     
+    scroll-snap-type: x mandatory;
+    top: 80px; 
+    padding-bottom: 100px;
+    margin-top: 20px;
+}
+.products__scroll-box{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #00e526;
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.products__scroll-text{
+    font-family: 'Stolz', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+.products__content-scroll::-webkit-scrollbar {
+    height: 10px;    
+    
+}
+
+.products__content-scroll::-webkit-scrollbar-thumb {
+    background: #92c11b;
+    border-radius: 10px; 
+}
+
+.products__content-scroll::-webkit-scrollbar-thumb:hover {
+    background: #92c11b;
+}
+.t1{
+    background-image: url('../assets/imgs/vermishel-v-pachke-60-g.png');
+}
+.t2{
+    background-image: url('../assets/imgs/slivki.png');
+}
+.t3{
+    background-image: url('../assets/imgs/lapsha-v-pachke-85-g.png');
+}
+.t4{
+    background-image: url('../assets/imgs/lapsha-v-lotke-90-g.png');
+}
+.t5{
+    background-image: url('../assets/imgs/lapsha-v-stakane-70-g.jpg');
+}
+.t6{
+    background-image: url('../assets/imgs/mask-group.jpg');
+}
+.t7{
+    background-image: url('../assets/imgs/lapsha-v-stakane-70g-s-harakterom1.png');
+}
+.t8{
+    background-image: url('../assets/imgs/vermishel-v-pachke-65-g.jpg');
+}
+
+

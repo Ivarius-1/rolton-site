@@ -1,0 +1,67 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 170px;
+}
+.about__content-left{
+    margin-left: 115px;
+    width: 450px;
+    align-items: center;    
+    justify-content: center;
+}
+.about__content{
+    width: 100%;
+    height: 630px;
+    justify-content: space-between;
+    display: flex;
+}
+.about__content-title{
+    font-family: 'Bebas', sans-serif;
+    font-weight: 800;
+    font-size: 70px;
+}
+.about__content-text{
+    margin-top: 30px;
+    font-family: 'Stolz', sans-serif;
+    font-weight: 400;
+}
+.about__content-right{
+    /* margin-right: 415px; */
+    width: 450px;
+    align-items: center;    
+    justify-content: center;
+    position: relative;
+}
+.about__right-img{
+    background-image: url('../assets/imgs/main-image4.png');
+    width: 454px;
+    height: 394px;
+    background-size: cover;
+    position: absolute;
+    top: 25px;
+    z-index: 2;
+    
+}
+.about__right-round{
+    width: 454px;
+    height: 454px;
+    border-radius: 50%;
+    background-color: #fff043;
+    position: absolute;
+    right: 50%;
+    z-index: 1;
+}
+.about__right-background{
+    background-image: url('../assets/imgs/myth-bg2.png');
+    /* width: 638px;
+    height: 678px; */
+    width: 810px;
+    height: 600px;
+    /* background-size: 125%; */
+    background-size: cover;
+    z-index: 0;
+    position: absolute;
+    top: -80px;
+    right: -150px;
+}

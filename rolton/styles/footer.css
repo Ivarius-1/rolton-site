@@ -1,0 +1,47 @@
+.footer{
+    background: #272727;
+    width: 1526px;
+    height: 250px;
+    margin-left: -10px;
+    margin-bottom: -10px;
+
+}
+.footer__content{
+    padding: 47px 10px 40px 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+.footer__content-about{
+    background-image: url('../assets/imgs/logo-mareven.png');
+    width: 128px;
+    height: 128px;
+    background-size: cover;
+}
+.footer__content-logo{
+    justify-content: left;
+    display: flex;
+    align-items: center;
+    width: 128px;
+    height: 57px;
+    position: absolute;
+    left: 120px;
+    bottom: 100px;
+}
+.footer__content-media{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    gap: 10px;
+    left: 120px;
+    top: 140px;
+}
+.footer__media-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+}

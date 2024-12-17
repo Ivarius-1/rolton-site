@@ -1,0 +1,38 @@
+.UIbutton{
+    font-family: 'Stolz', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+.UIlogo{
+    cursor: pointer;
+}
+.about__content-UIbutton{
+    margin-top: 30px;
+    min-width: 200px;
+    padding: 12px 9px 12px;
+    border-radius: 10px;
+    font-family: 'Stolz', sans-serif;
+    font-weight: 400;
+    background-color: #ffda00;
+    text-align: center;
+    font-size: 14px;
+    display: inline-block;
+    cursor: pointer;
+}
+.recipes__contnet-UIbutton{
+    width: 200px;
+    height: 42px;
+    padding-top: 12px;
+    border-radius: 10px;
+    font-family: 'Stolz', sans-serif;
+    background-color: #ffda00;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    cursor: pointer;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}

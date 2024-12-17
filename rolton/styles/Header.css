@@ -1,0 +1,43 @@
+.header{
+    top: 0px;
+    background-color: #63a030;
+    height: 90px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 32px;
+    
+}
+.header__content-navigation{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    z-index: 2;
+    justify-content: center;
+    flex-grow: 1;
+    position: absolute;
+    left: 118px;
+    top: 15px;
+}
+.header-navigation__item{
+    display: none;
+}
+.header-navigation__logo{
+    cursor: pointer;
+}
+.header__content-painted{
+    position: absolute;
+    width: 100%;
+    height: 48px;
+    top: 70px;
+    z-index:1;
+    background-image: url("../assets/imgs/painted_header_desktop.png");
+}
